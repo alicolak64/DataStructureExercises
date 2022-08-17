@@ -4,7 +4,7 @@
  */
 
 
-public class Node<E> {
+public class Node <E> {
 
     private E value ;
     private Node<E> next ;
@@ -35,6 +35,4 @@ public class Node<E> {
     public Node<E> getPrevious() {
         return previous;
     }
-
-
 }
